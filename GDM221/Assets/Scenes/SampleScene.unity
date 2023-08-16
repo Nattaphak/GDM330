@@ -428,8 +428,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ball: {fileID: 6039135683906053608, guid: f4ec1f48523fc134d9ec5d33c2b813ed, type: 3}
-  SpawnPoint: {fileID: 1034541597}
-  randomRange: 5
+  spawnRate: 0.5
+  GetrandomRange: 5
 --- !u!1 &1607503860
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 1838417175}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
